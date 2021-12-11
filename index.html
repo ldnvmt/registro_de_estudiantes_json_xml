@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <title>Lista de Estudiantes (JSON Y XML)</title>
+</head>
+<body>
+<!----------------- TABLA PARA MOSTRAR LOS DATOS DEL ARCHIVO JSON --------------------->
+    <div class="container1">
+        <p class="maintitle">Registro de Estudiantes 2021</p>
+        <p class="title1">Lista de Estudiantes (JSON)</p>
+        <div class="section">
+            <button class="but1" id="boton1">Desplegar información</button>
+            <table class="table1">
+                <tr>
+                    <td>Cédula</td>
+                    <td>Nombre y Apellido</td>
+                    <td>Dirección</td>
+                    <td>Número Telefónico</td>
+                    <td>Correo Electrónico</td>
+                    <td>Curso</td>
+                    <td>Paralelo</td>
+                </tr>
+                <tbody id="tablebody"></tbody>
+            </table>
+        </div>
+    </div>
+    <!----------------- TABLA PARA MOSTRAR LOS DATOS DEL ARCHIVO XML ------------------->
+    <div class="container2">
+        <p class="title2">Lista de Estudiantes (XML)</p>
+        <button class="but2" id="GenerarDatos">Desplegar información</button>
+    </div>
+    <div class="container3">
+        <table class="table2c" id="table2">
+            <tr>
+            <td>Cédula</td>
+            <td>Nombre y Apellido</td>
+            <td>Dirección</td>
+            <td>Número Telefónico</td>
+            <td>Correo Electrónico</td>
+            <td>Curso</td>
+            <td>Paralelo</td>
+            </tr>
+            <tbody id="tablebody"></tbody>
+        </table>
+    </div>
+        <!----------------- SCRIPT PARA GENERAR LOS DATOS DEL ARCHIVO XML ------------------->
+            <script>
+                document.getElementById("GenerarDatos").addEventListener("click", GenerarDatos);
+                function GenerarDatos() {
+                  var varxml = new XMLHttpRequest();
+                  varxml.onreadystatechange = function() {
+                    if(this.readyState == 4 && this.status == 200){
+                        GenerarXML(this);
+                    }
+                  }
+                  varxml.open("GET", "listaestudiantes.xml", true);
+                  varxml.send();
+                }
+                function GenerarXML(xml) {
+                  var docXML = xml.responseXML;
+                  var datos = "<tr><td>Cédula</td><td>Nombre y Apellido</td><td>Dirección</td><td>Número Telefónico</td><td>Correo Electrónico</td><td>Curso</td><td>Paralelo</td></tr>";
+                  var lista = docXML.getElementsByTagName("lista");
+                  for (var i = 0; i <lista.length; i++) { 
+                    datos += "<tr><td>";
+                    datos += lista[i].getElementsByTagName("cedula1")[0].textContent;
+                    datos += "</td><td>";
+                    datos += lista[i].getElementsByTagName("nombreyapellido1")[0].textContent;
+                    datos += "</td><td>";
+                    datos += lista[i].getElementsByTagName("direccion1")[0].textContent;
+                    datos += "</td><td>";
+                    datos += lista[i].getElementsByTagName("numerotlf1")[0].textContent;
+                    datos += "</td><td>";
+                    datos += lista[i].getElementsByTagName("email1")[0].textContent;
+                    datos += "</td><td>";
+                    datos += lista[i].getElementsByTagName("curso1")[0].textContent;
+                    datos += "</td><td>";
+                    datos += lista[i].getElementsByTagName("paralelo1")[0].textContent;
+                    datos += "</td></tr>";
+                  }
+                  document.getElementById("table2").innerHTML = datos;
+                }
+                </script>       
+        <script src="main.js"></script>
+</body>
+</html>
+
