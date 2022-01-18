@@ -21,8 +21,6 @@ function SelectDatosXML() {
                     <td>${item.direccion1}</td>
                     <td>${item.numerotlf1}</td>
                     <td>${item.email1}</td>
-                    <td>${item.curso1}</td>
-                    <td>${item.paralelo1}</td>
                 </tr> ` 
 
             }

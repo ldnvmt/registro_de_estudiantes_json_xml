@@ -1,101 +1,90 @@
 [
     {
         "cedula1": "1724567321",
-        "nombreyapellido1": "Sergio Gavilán",
-        "direccion1": "Calle 11, Av. 19",
-        "numerotlf1": "0994723040",
-        "email1": "sergiotheboss@gmail.com",
-        "curso1": "Tercer Nivel",
-        "paralelo1": "C"
+        "nombreyapellido1": "Miguel Almirón",
+        "direccion1": "Calle 24, Av. 37",
+        "numerotlf1": "0984121480",
+        "email1": "miguelalmiron@outlook.com"
+
     }, 
 
     {
-        "cedula1": "1309487110",
-        "nombreyapellido1": "Mireya Rodríguez",
-        "direccion1": "Calle Venezuela N9-09 Y Esmeraldas",
-        "numerotlf1": "0972226688",
-        "email1": "mireyarod_23@gmail.com",
-        "curso1": "Cuarto Nivel",
-        "paralelo1": "A"
+        "cedula1": "1316720917",
+        "nombreyapellido1": "Carlota Miramón",
+        "direccion1": "Calle Los Rubiales",
+        "numerotlf1": "0991456711",
+        "email1": "carlotamir_1@gmail.com"
+    
     }, 
 
     {
-        "cedula1": "1000781151",
-        "nombreyapellido1": "José Manuel Rey",
-        "direccion1": "Carlos Bustamante 5792",
-        "numerotlf1": "0997172379",
-        "email1": "josemanrey03@gmail.com",
-        "curso1": "Noveno Nivel",
-        "paralelo1": "D" 
+        "cedula1": "1309119004",
+        "nombreyapellido1": "Marcelo Muniaín",
+        "direccion1": "Av. 12, Calle 21",
+        "numerotlf1": "0992130895",
+        "email1": "marcelito_mun@yahoo.com"
+ 
     },
 
     {
-        "cedula1": "1709785073",
-        "nombreyapellido1": "Pedro De La Rosa",
-        "direccion1": "Calle 309, Av. 222",
-        "numerotlf1": "0992961909",
-        "email1": "pdelarosa_f1@gmail.com",
-        "curso1": "Segundo Nivel",
-        "paralelo1": "B" 
+        "cedula1": "1721468932",
+        "nombreyapellido1": "Jesse Rosas",
+        "direccion1": "Calle 307, Ed. Diesel",
+        "numerotlf1": "0964891231",
+        "email1": "jessepinkman@gmail.com"
+    
     },
 
     {
-        "cedula1": "1307581522",
-        "nombreyapellido1": "Isabel Sánchez",
-        "direccion1": "Av. Del Toril",
-        "numerotlf1": "0969590617",
-        "email1": "isasanchez05@gmail.com",
-        "curso1": "Sexto Nivel",
-        "paralelo1": "A" 
+        "cedula1": "1306311829",
+        "nombreyapellido1": "Walter Blanco",
+        "direccion1": "Alburquerque N 17, Av. 56",
+        "numerotlf1": "0934090128",
+        "email1": "itsheisenberg@outlook.com"
+        
     },
 
     {
-        "cedula1": "0961095868",
-        "nombreyapellido1": "Rodolfo Bustamante",
-        "direccion1": "Av. 10 de Agosto N30-150 y Cuero y Caicedo",
-        "numerotlf1": "0991092459",
-        "email1": "rodolfitobus12@gmail.com",
-        "curso1": "Séptimo Nivel",
-        "paralelo1": "C" 
+        "cedula1": "0962675821",
+        "nombreyapellido1": "James Bonavente",
+        "direccion1": "Av. 24, Calle 21",
+        "numerotlf1": "0989028782",
+        "email1": "jbonavente@gmail.com"
+       
     },
 
     {
-        "cedula1": "1728546102",
-        "nombreyapellido1": "Andrea Bonavente",
-        "direccion1": "Calle Flavio Alfaro y Quito",
-        "numerotlf1": "0970436422",
-        "email1": "andrea_bonavente25@gmail.com",
-        "curso1": "Décimo Nivel",
-        "paralelo1": "B" 
+        "cedula1": "1725039402",
+        "nombreyapellido1": "Clay Johnson",
+        "direccion1": "Calle Simón Bolívar",
+        "numerotlf1": "0994102335",
+        "email1": "clayjohnson12@gmail.com"
+       
     }, 
 
     {
-        "cedula1": "1702174921",
-        "nombreyapellido1": "Felipe Massa",
-        "direccion1": "Av. 9 de Octubre 729 y Boyacá",
-        "numerotlf1": "0972072380",
-        "email1": "ilbambinomassa@gmail.com",
-        "curso1": "Primer Nivel",
-        "paralelo1": "D" 
+        "cedula1": "1303789045",
+        "nombreyapellido1": "Max Bergoglio",
+        "direccion1": "Av. 12 de diciembre",
+        "numerotlf1": "0991230984",
+        "email1": "maxbergoglio@outlook.com"
+    
     },
 
     {
-        "cedula1": "0965900012",
-        "nombreyapellido1": "Carlos Sainz",
-        "direccion1": "Av. Juan Tanca Marengo Km 3 1/2",
-        "numerotlf1": "0992818296",
-        "email1": "carlossainzjr55@gmail.com",
-        "curso1": "Quinto Nivel",
-        "paralelo1": "A" 
+        "cedula1": "0957129822",
+        "nombreyapellido1": "Jaime Merhi",
+        "direccion1": "Calle Ferrari, Av. 24",
+        "numerotlf1": "0998103399",
+        "email1": "jmerhi_21@gmail.com"
+     
     },
 
     {
-        "cedula1": "1718755703",
-        "nombreyapellido1": "Fernando Alonso",
-        "direccion1": "Borrero 9-57 E/ Gran Colombia y Bolívar",
-        "numerotlf1": "0950324351",
-        "email1": "nanoalonso14@gmail.com",
-        "curso1": "Décimo Nivel",
-        "paralelo1": "A" 
+        "cedula1": "1301567002",
+        "nombreyapellido1": "Beatriz Bermúdez",
+        "direccion1": "Calle Las Acacias",
+        "numerotlf1": "0989345561",
+        "email1": "beabermudez@yahoo.com"
     }
 ]
